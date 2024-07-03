@@ -1,0 +1,221 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+</style>
+/* Resetear márgenes y rellenos por defecto */
+*{ 
+    padding: 0;
+    margin: 0;
+  }
+/* Estilos del cuerpo de la pag web */
+body{
+  background-color: #FFEEF7;
+  width: 100%;
+}
+/* Estilos del encabezado */
+}
+header{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-color: #FFEEF7;
+  display: flex;
+  justify-content: center;
+
+}
+header h2{ 
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f19aa3;
+  color: white;
+  padding:15px 300px;
+}
+
+.logoppal{
+  display: flex;
+  justify-content: center;
+ }
+
+.logo{
+  width: 150px;
+  margin: 20px;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } 
+
+
+.navbar{
+  list-style-type: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  text-decoration: underline;
+  color: rgb(130, 146, 130);
+  font-family: "Raleway", sans-serif;
+    }
+
+.linksnavbar:hover{
+  background-color: #f1b1b8;
+  border-radius: 10px;
+ }
+a{
+  color: rgb(130, 146, 130);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration:none;
+  padding: 20px;
+  margin: 10px;   
+    }  
+/* Estilos del contenido de la pag */      
+main{ 
+  color: rgb(126, 117, 117);
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+}
+/* Estilos de las secciones del cuerpo */
+ /* SECCION PRIMERA */
+#primera{ 
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+.Hola{ 
+  color: #f19aa3;
+  font-size:60px;
+  font-family:"Playwrite ES Deco", cursive; 
+  }
+.imagen1{
+    border-radius: 50px; 
+    width: 250px;
+  }
+/* SECCION SEGUNDA */
+#segunda{
+  background-color: #FFEEF7;
+  text-align:center;
+  width: 100%;
+ }
+.nuestro-lugar{ 
+    color:rgb(126, 117, 117);
+    font-size:40px;
+    font-family:"Playwrite ES Deco", cursive; 
+    text-align:center;
+  }
+.imgs2{
+width: 350px;
+height: 450px;
+ }
+ /* SECCION TERCERA */
+#tercera{
+  background-color: white;
+}
+.imgs3{
+width: 250px;
+height: 250px;
+  }
+.serv{
+  color: #f19aa3;
+  font-size:40px;
+  font-family:"Playwrite ES Deco", cursive; 
+  text-align:center;
+ }
+ .vermas{ 
+  color: #f19aa3;
+  text-decoration: underline;
+ }
+.listaservicios{ 
+  text-align: left;
+  color: rgb(126, 117, 117);
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+/* SECCION CUARTA */
+.comentarios{
+  color: #9c8268;
+  font: size 30px;px;
+  font-family:"Playwrite ES Deco", cursive; 
+  text-align:center;
+ }
+/* Estilos pie de página */
+footer{ 
+background-color: white;
+text-align: center;
+color: #f3b2b9;
+font-size: 20px;
+font-family: "Raleway", sans-serif;
+width: 100%;
+}
+
+ .contacto{
+  font-family:"Playwrite ES Deco", cursive;
+  color: rgb(126, 117, 117);
+  font-size: 40px;
+  text-align: center;
+  }
+footer img{
+  width: 50px;
+  height: 50px;
+ }
+
+ .copyright{
+  background-color: #f1b1b8;
+  color: white;
+  font-size: 12px;
+  height: 25px;
+  text-align: center;
+  }
+  .vinculosfooter:hover{
+    background-color: #f1b1b8;
+    padding: 20px;
+  }
+  /* Estilos enlaces dentro de la pág*/
+  .pagesservicios{
+    color:rgb(130, 146, 130);
+    font-size:40px;
+    font-family:"Playwrite ES Deco", cursive; 
+    text-align:center;
+  }
+ .seccionss{ 
+  background-color: white;
+ }
+ .footerss{
+  background-color: #FFEEF7;
+  }
+ 
+  .headerservicios{
+    padding: 20px;
+   }
+   .contactanos{ 
+    color:rgb(130, 146, 130);
+    font-size:40px;
+    font-family:"Playwrite ES Deco", cursive; 
+    text-align:center;
+   }
+   .headercontacto{ 
+    padding: 20px;
+   }
+   .footercontacto{ 
+    background-color: #FFEEF7;
+   }
+
+   .pagescapacitaciones{
+    color:rgb(130, 146, 130);
+    font-size:40px;
+    font-family:"Playwrite ES Deco", cursive; 
+    text-align:center;
+    }
+    .sectioncapacitaciones{ 
+      background-color: white;
+    }
+    .footercapacitaciones{
+      background-color: #FFEEF7;
+     }
+    .headercapacitaciones{ 
+      padding: 20px;
+    }
+    .imgcapacitaciones{
+      width: 200px;
+      height: 250px;
+     }
