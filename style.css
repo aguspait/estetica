@@ -1,5 +1,6 @@
 <style>@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
 </style>
+
 /* Resetear márgenes y rellenos por defecto */
 *{ 
     padding: 0;
@@ -112,6 +113,7 @@ height: 450px;
 .imgs3{
 width: 250px;
 height: 250px;
+
   }
 .serv{
   color: #f19aa3;
@@ -130,6 +132,9 @@ height: 250px;
   font-family: "Raleway", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 50px;
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 10px;
 }
 /* SECCION CUARTA */
 .comentarios{
@@ -208,14 +213,41 @@ footer img{
     }
     .sectioncapacitaciones{ 
       background-color: white;
+  
     }
     .footercapacitaciones{
       background-color: #FFEEF7;
      }
     .headercapacitaciones{ 
-      padding: 20px;
+      padding: 20px
     }
     .imgcapacitaciones{
-      width: 200px;
-      height: 250px;
+      width: 250px;
+      height: 300px;
+      padding: 15px;
+      margin: 15px;
      }
+     .botonrapido{ 
+      background-color: #c5b7a8;
+      color: white;
+      font-size: 0.80rem;
+      width: 150px;
+      height: 150px;
+      position: fixed;
+      border-radius: 20%;
+      bottom: 20px;
+      right: 20px;
+      text-align: center;
+    }
+    .linkwhatsapp{
+      position: fixed;
+      width: 80px;
+      height: 80px;
+      bottom: 40px;
+      right: 40px;
+      padding: 15px;
+     }
+    
+  .fa-whatsapp{
+    font-size: 30px;
+   }
