@@ -1,0 +1,120 @@
+main{
+    color: $colorletramain;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    .primera{
+        text-align: center;
+        background-color: $blanco;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+        .Hola{
+             color:$rosafuerte;
+             font-size: 60px;
+             font-family: "Playwrite AR", cursive;
+             text-align: center;
+             margin: 10px;
+    }
+        .parrafosprimera{
+            text-align: center;
+    }
+        .section__innerContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem;
+            text-align: center;
+            text-wrap: balance;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+    }
+        .imagen1{
+            border-radius: 50px;
+            width: 250px;
+            margin: auto
+    }
+    .segunda{
+        background-color: $rosaclaro;
+        text-align: center;
+        width: 100%;
+    }
+        .nuestro-lugar{
+            font-family: "Playwrite AR", cursive;
+            color: $rosafuerte;
+            font-size: 40px;
+            text-align: center;  
+    }
+        .segunda-parrafos{
+            text-align: center;
+        }
+        .imgs2{
+            width: 350px;
+            height: 450px;
+            margin: auto;
+        }
+        .tercera{
+            background-color:$blanco;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+            .serv{
+                color:$rosafuerte;
+                font-size: 40px;
+                font-family: "Playwrite AR", cursive;
+                text-align: center;
+        }
+            .vermas{
+                &:hover{
+                    color:$rosafuerte
+                }
+                color: black;
+                text-decoration: underline;
+        }
+            .listaservicios{
+                text-align: left;
+                padding: 20px;
+                font-family: "Raleway", sans-serif;
+                font-size: 1.2rem;
+                margin-bottom: 50px;
+                display: grid;
+                grid-template-rows: auto;
+                row-gap: 10px;
+                max-width: 800px;
+                margin: auto;
+        }
+            .tercera__imgContainer{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 2rem;
+                padding: 2rem;
+        }
+            .imgs3{
+                width: 250px;
+                height: 250px;
+                margin: auto;
+        }
+        }
+    .cuarta{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+        .comentarios{
+            color: $rosafuerte;
+            font-size: 30px;
+            font-family: "Playwrite AR", cursive;
+            text-align: center;
+        }
+        .form{
+            text-align: center;
+            margin-bottom: 15px;
+        }

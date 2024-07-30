@@ -1,0 +1,90 @@
+.pagesservicios {
+    color: $colorletramain;
+    font-size: 40px;
+    font-family: "Playwrite AR", cursive;
+    text-align: center;
+  }
+  .seccionss {
+    background-color: white;
+    padding: 25px;
+  }
+  .footerss {
+    background-color:$colordelbody;
+  }
+  
+  .headerservicios {
+    padding: 20px;
+  }
+  .contactanos {
+    color: $colorletramain;
+    font-size: 40px;
+    font-family: "Playwrite AR", cursive;
+    text-align: center;
+  }
+  .headercontacto {
+    padding: 20px;
+  }
+  .footercontacto {
+    background-color: #ffeef7;
+  }
+  
+  .pagescapacitaciones {
+    color: $colorletramain;
+    font-size: 40px;
+    font-family: "Playwrite AR", cursive;
+    text-align: center;
+  }
+  #sectioncapacitaciones {
+    background-color: white;
+    padding: 25px;
+   
+  }
+  .footercapacitaciones {
+    background-color: #ffeef7;
+  }
+  .headercapacitaciones {
+    padding: 20px;
+  }
+  .imgcapacitaciones {
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+    margin: 15px;
+  }
+  .infogeneral{
+    margin: 20px;
+  }
+  .cursos{
+    margin: 20px;
+  }
+  .imgcapacitaciones{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+
+  }
+  .botonrapido {
+    background-color: #c5b7a8;
+    color: white;
+    font-size: 0.8rem;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    border-radius: 20%;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .linkwhatsapp {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    right: 40px;
+    padding: 15px;
+  }
+

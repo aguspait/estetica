@@ -1,0 +1,62 @@
+footer{
+    text-align: center;
+    color: $rosafuerte;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    padding: 20px;
+    h5{
+        margin: 30px;
+    }
+    .contacto{
+        font-family: "Playwrite AR", cursive;
+        color: $colorletramain;
+        font-size: 40px;
+        text-align: center;
+    }
+    .vinculosfooter{
+        padding: 20px;
+        &:hover{
+        background-color: $rosaclaro;
+    }
+    }
+    .imgf{
+        width: 50px;
+        height: 50px;
+    }
+    .botonrapido{
+        background-color: #c5b7a8;
+        color: #FFFFFF;
+        font-size: 0.8rem;
+        width: 150px;
+        height: 150px;
+        position: fixed;
+        border-radius: 20%;
+        bottom: 20px;
+        right: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .linkwhatsapp{
+        position: fixed;
+        width: 80px;
+        height: 80px;
+        bottom: 40px;
+        right: 40px;
+        padding: 15px;
+    }
+    .fa-whatsapp{
+        font-size: 30px;
+    }
+    .copyright{
+        background-color: #f1b1b8;
+        color: #FFFFFF;
+        font-size: 12px;
+        height: 25px;
+        text-align: center;
+    }
+}
+    

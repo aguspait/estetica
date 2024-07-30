@@ -3,19 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./CSS/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Playwrite+BE+WAL:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -25,13 +22,13 @@
   <body>
     <header>
       <section>
-        <div>
+        <div class="titulo">
           <h2>AGUSTINA PAIT ESTÉTICA</h2>
         </div>
       </section>
       <nav>
         <div class="logoppal">
-          <img src="./img-estetica/logo.jpg" alt="logo" class="logo" />
+          <img src="./img-estetica/logo.jpg" alt="logo" class="logo"/>
         </div>
 
         <ul class="navbar">
@@ -56,8 +53,8 @@
     </header>
     <main>
       <section id="primera">
-        <h1 class="Hola">¡Hola!</h1>
-        <div>
+        <h1 class="Hola">¡hola!</h1>
+        <div class="parrafosprimera">
           <p>
             Soy <strong>María Agustina Pait</strong>, me dedico al rubro de la
             estética hace 2 años.
@@ -149,29 +146,33 @@
           />
         </div>
       </section>
-
+<hr>
       <section id="cuarta">
         <form>
-          <div>
+          <div class="form">
             <h1 class="comentarios">Dejanos tu comentario</h1>
             <strong><label for="name">Nombre</label></strong>
             <strong><input type="text" id="name" name="name" /></strong>
           </div>
           <br />
-          <strong><label for="surname">Apellido</label></strong>
-          <input type="text" id="surname" name="surname" />
+          <div class="form">
+            <strong><label for="surname">Apellido</label></strong>
+            <input type="text" id="surname" name="surname" />
+          </div>
+          
           <br />
-          <div>
+          <div class="form">
             <strong><label for="COMENTARIO">Deje su comentario</label></strong>
             <textarea name="comentario" id="comentario"></textarea>
           </div>
           <br />
-          <div>
+          <div class="form">
             <input type="submit" value="enviar formulario" />
           </div>
         </form>
       </section>
     </main>
+    <hr>
     <footer>
       <h3 class="contacto">Contacto</h3>
       <h5>agustinapaitestetica@gmail.com</h5>
@@ -179,18 +180,20 @@
       <h5>📍Francia 1331, Realicó, La Pampa</h5>
       <section>
         <div class="vinculosfooter">
-          <a href="https://wa.link/oi4rn9"
-            ><img src="./img-estetica/logowhatsss.jpg" alt=""
+          <a class="imgf"
+          href="https://wa.link/oi4rn9"
+            ><img class="imgf"src="./img-estetica/logowhatsss.jpg" alt=""
           /></a>
         </div>
         <div class="vinculosfooter">
-          <a href="https://www.instagram.com/agustinapaitestetica/?hl=es"
-            ><img src="./img-estetica/logoinst.jpg" alt="instagram"
+          <a class="imgf" href="https://www.instagram.com/agustinapaitestetica/?hl=es"
+            ><img class="imgf" src="./img-estetica/logoinst.jpg" alt="instagram"
           /></a>
         </div>
         <div class="vinculosfooter">
-          <a href="https://www.facebook.com/agustinapaitestetica/"
-            ><img src="./img-estetica/logofacesolo.jpg" alt="facebook"
+          <a 
+          href="https://www.facebook.com/agustinapaitestetica/"
+            ><img class="imgf"src="./img-estetica/logofacesolo.jpg" alt="facebook"
           /></a>
         </div>
     </section>
